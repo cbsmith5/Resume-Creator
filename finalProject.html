@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <title>WEB 115 Final Project</title>
+<body onload = pageInfo()>
+        <script src="projectJS.js"></script>
+    <h1 id=header>Cheyenne Smith</h1>
+    <h2 id=subhead>WEB 115 - Section 0003</h2>
+    </body>
+    <hr width = "60%">
+    <center><h1>Build Your Resume</h1></center><br>
+    
+    <center><b>Name:</b><br>
+    <input type="text" id ="name" placeholder="Enter your full name"><br>
+    <br>
+        
+    <b>Address:</b><br>
+    <input type="text" id="address" placeholder="Enter your address"><br>
+    <br>
+        
+    <b>Phone Number:</b><br>
+    <input type="text" id="number" placeholder="Enter your phone number"><br>
+    <br>
+        
+    <b>E-mail:</b><br>
+    <input type="text" id="email" placeholder="Enter your e-mail address" onchange="validateEmail()"><br>
+    <br>
+        
+    <b>Personal Information:</b><br>
+    <textarea rows="4" cols="50" id="info" placeholder="Enter your personal information"></textarea><br>
+    <br>
+        
+    <b>Career Objectives:</b><br>
+    <textarea rows="4" cols="50" id="career" placeholder="Enter your career objectives"></textarea><br>
+    <br>
+        
+    <b>Educational Background:</b><br>
+    <textarea rows="4" cols="50" id="education" placeholder="Enter your educational background"></textarea><br>
+    <br>
+        
+    <b><h3>Work Experience:</h3></b><br>
+        
+    <b>First Work Experience</b><br>
+    Start:<input type="date" id="dateOne"/> End:<input type="date" id="dateOneE"/><br>
+    <textarea rows="4" cols="50" id="firstWork" placeholder="Describe your first work experience"></textarea><br>
+    <br>
+        
+    <b>Second Work Experience</b><br>
+    Start:<input type="date" id="dateTwo"/> End:<input type="date" id="dateTwoE"/><br>
+    <textarea rows="4" cols="50" id="secondWork" placeholder="Describe your second work experience"></textarea><br>
+    <br>
+        
+    <b>Third Work Experience</b><br>
+    Start:<input type="date" id="dateThree"/> End:<input type="date" id="dateThreeE"/><br>
+    <textarea rows="4" cols="50" id="thirdWork" placeholder="Describe your third work experience"></textarea><br>
+    <br>
+        
+    <b>Fourth Work Experience</b><br>
+    Start:<input type="date" id="dateFour"/> End:<input type="date" id="dateFourE"/><br>
+    <textarea rows="4" cols="50" id="fourthWork" placeholder="Describe your fourth work experience"></textarea><br>
+    <br>
+        
+    <b>Business References:</b><br>
+    <textarea rows="4" cols="50" id="ref" placeholder="Enter your business references"></textarea><br>
+    <br>
+        <input type = "button" id = "myInput" value = "Create HTML on-the-fly" onclick="myWindow()" /></center>
+</html>
