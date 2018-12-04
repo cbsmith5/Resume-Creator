@@ -1,3 +1,5 @@
+//Created by Cheyenne Smith
+
 function pageInfo() {
     document.getElementById("header").style.color = "red";  
     document.getElementById("header").style.fontFamily = "Tahoma";
